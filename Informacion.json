@@ -1,0 +1,2443 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "preguntas": ["hola", "buenos dias", "buenas tardes", "ola"],
+            "respuestas": ["Hola, Como puedo ayudarte hoy ?", "Hola, Que Necesitas ?"]
+        },
+        {
+            "tag": "saludo 2",
+            "preguntas": ["como estas", "como te va", "como te ba", "que tal", "como andas", "que hay"],
+            "respuestas": ["Bien, ¿En qué puedo ayudarte?", "Todo bien, ¿En qué puedo ayudarte?"]
+        },
+        {
+            "tag": "ubicacion",
+            "preguntas": [
+                "en donde queda el hospital",
+                "donde se ubican",
+                "cual es tu ubicacion",
+                "cual es su ubicacion",
+                "cual es la ubi",
+                "dame la ubicacion",
+                "dame tu ubicacion",
+                "me pasas la ubicacion",
+                "ubicacion",
+                "ubi"
+            ],
+            "respuestas": ["Nos ubicamos en Blvd. Constitución S/N, Col. Jorge Almada, Culiacán, Sinaloa, México - C.P. 80200."]
+        },
+        {
+            "tag": "telefono",
+            "preguntas": [
+                "cual es su telefono",
+                "cual es el telefono",
+                "telefono",
+                "me pasas el telefono", 
+                "quiero llamar", 
+                "como llamo", 
+                "pasame el celular",
+                "pasame el telefono",
+                "numero de telefono",
+                "me puedes dar el numero del hospital",
+                "cual es el numero del hospital",
+                "cual es el numero de telefono del hospital",
+                "cual es el numero de telefono del hospital pediatrico de sinaloa"
+            ],
+            "respuestas": [
+                "\nDespues de marcar este numero, puedes digitar el numero de extencion del area solicitada. Puedes ver todas las extenciones en un archivo externo."
+            ]
+        },
+        {
+            "tag": "aniversario",
+            "preguntas": [
+                "aniversario", 
+                "cuando es tu cumple anos", 
+                "festeja", 
+                "cumple anos",
+                "anos"
+            ],
+            "respuestas": ["​El aniversario del Hospital Pediátrico de Sinaloa se celebra cada 13 de septiembre, conmemorando su inauguración el 13 de septiembre de 1980"]
+        },
+        {
+            "tag": "especialidades",
+            "preguntas": [
+                "que especialidades hay en el hospital", 
+                "lista de especialidades", 
+                "cuales son las especialidades disponibles", 
+                "que especialidades atienden aqui", 
+                "especialidades medicas en el hospital",
+                "que servicios medicos ofrecen",
+                "especialidades",
+                "espesialidades",
+                "espacialidades",
+                "espasialidades",
+                "especialidad",
+                "espesialidad",
+                "espacialidad",
+                "espasialidad",
+                "especialistas",
+                "espesialistas",
+                "especialista",
+                "espesialista",
+                "area",
+                "areas",
+                "servicios",
+                "servicio",
+                "lista areas"
+            ],
+            "respuestas": [
+                "Estas son las principales especialidades médicas con las que cuenta el Hospital Pediátrico de Sinaloa:"
+            ]
+        },
+        {
+            "tag": "informacion_general",
+            "preguntas": [
+                "que es el hospital pediatrico de sinaloa", 
+                "informacion general del hospital", 
+                "cual es el proposito del hospital", 
+                "que servicios brindan en el hospital",
+                "info"
+            ],
+            "respuestas": [
+                "El Hospital Pediátrico de Sinaloa es un centro médico especializado en la atención integral de niñas, niños y adolescentes, ofreciendo servicios de alta calidad en diversas especialidades médicas."
+            ]
+        },
+        {
+            "tag": "horarios",
+            "preguntas": [
+                "cual es tu horario",
+                "cual es el horario",
+                "cuales son los horarios de atencion", 
+                "horarios del hospital", 
+                "a que hora puedo ir al hospital", 
+                "esta abierto las 24 horas",
+                "puedo llevar a mi hijo",
+                "cuando cierran",
+                "cuando abren",
+                "horarios",
+                "horario",
+                "esta abierto",
+                "esta cerrado"
+            ],
+            "respuestas": [
+                "Ofrecemos atencion las 24 horas para urgencias.\nLos servicios de consulta externa tienen horarios establecidos según la especialidad."
+            ]
+        },
+        {
+            "tag": "correo",
+            "preguntas": [
+                "cual es el correo electronico del hospital", 
+                "correo electronico del hospital pediatrico de sinaloa", 
+                "como puedo enviar un correo al hospital", 
+                "correo de contacto del hospital",
+                "cual es tu correo",
+                "cual es su correo"
+            ],
+            "respuestas": [
+                "En HPS queremos escucharte, puedes escribirnos a: "
+            ]
+        },
+        {
+            "tag": "error",
+            "preguntas": [
+                "chinga tu madre wey",
+                "vete a la verga",
+                "culo",
+                "pito",
+                "pene",
+                "pendejo",
+                "chinga tu madre",
+                "vete a la chingada",
+                "estupido",
+                "tonto",
+                "cabron",
+                "mamacon",
+                "pinche",
+                "la chingada",
+                "chingas a tu madre",
+                "huevon",
+                "peluca",
+                "chingao",
+                "madre de tu madre",
+                "joto",
+                "maricon",
+                "puto",
+                "guey",
+                "culero"
+            ],
+            "respuestas": [
+                "No estoy seguro de entender eso. ¿Puedes reformular tu pregunta?",
+                "Lo siento, no tengo información sobre ese tema. ¿Puedes reformular tu pregunta?",
+                "Esa pregunta está fuera de mi conocimiento. Pregunta algo sobre el hospital."
+            ]
+        },
+        {
+            "tag": "informacion_adicional",
+            "preguntas": [
+                "tienen guarderia", 
+                "el hospital tiene servicio de guarderia", 
+                "que servicios adicionales ofrecen", 
+                "hay algun programa de apoyo a los padres", 
+                "hay alojamiento para los padres"
+            ],
+            "respuestas": [
+                "El Hospital Pediátrico de Sinaloa ofrece programas de apoyo a los padres y alojamiento en casos específicos. Para más detalles, te recomendamos contactar con el hospital directamente."
+            ]
+        },
+        {
+            "tag": "donaciones",
+            "preguntas": [
+                "puedo hacer una donacion", 
+                "como puedo hacer una donacion", 
+                "aceptan donaciones", 
+                "quiero hacer una donacion",
+                "donadores",
+                "donar",
+                "donacion",
+                "donasion",
+                "como puedo ayudar",
+                "donde puedo donar al hospital",
+                "donaciones",
+                "donasiones"
+            ],
+            "respuestas": [
+                "Agradecemos tu apoyo, tu generosidad puede transformar la vida de nuestros pequeños. ¡Acércate a Nosotros! 💙"
+            ]
+        },
+        {
+            "tag": "farmacia",
+            "preguntas": [
+                "donde puedo comprar medicamentos",
+                "tienen farmacia en el hospital",
+                "necesito informacion sobre medicamentos",
+                "donde esta la farmacia del hospital",
+                "puedo comprar medicina aqui",
+                "informacion sobre farmacia",
+                "tienen medicamentos disponibles",
+                "como puedo obtener mis medicamentos",
+                "farmacia del hospital",
+                "cual es el horario de la farmacia",
+                "donde consigo mi receta",
+                "medicamentos",
+                "farmacia",
+                "medicamento",
+                "donde compro mis medicinas",
+                "donde surto mi receta",
+                "puedo comprar medicinas en el hospital"
+            ],
+            "respuestas": [
+                "Gestiona el almacenamiento, control y dispensación de medicamentos, asegurando tratamientos seguros y eficaces conforme a indicaciones médicas. Para información sobre disponibilidad, consulta los canales oficiales."
+            ]
+        },
+        {
+            "tag": "fecha",
+            "preguntas": [
+                "que dia es hoy",
+                "cual es la fecha de hoy", 
+                "dime la fecha",
+                "dame la fecha",
+                "fecha",
+                "dia",
+                "que dia es",
+                "que dia es hoy"
+            ],
+            "respuestas": ["FECHA_ACTUAL"]
+        },
+        {
+            "tag": "logo",
+            "preguntas": [
+                "logo"
+            ],
+            "respuestas": ["Este es el logo del Hospital Pediátrico de Sinaloa."]
+        },
+        {
+            "tag": "hora",
+            "preguntas": [
+                "que hora es", 
+                "dime la hora", 
+                "hora actual",
+                "dame la hora",
+                "cual es la hora",
+                "que hora tienes",
+                "hora"
+            ],
+            "respuestas": ["HORA_ACTUAL"]
+        },
+        {
+            "tag": "info_chatbot",
+            "preguntas": [
+                "que es esto", 
+                "donde estoy", 
+                "que es esto",
+                "programa",
+                "bot",
+                "que esta pagina",
+                "que es el bot",
+                "que es un bot"
+            ],
+            "respuestas": ["Este es un <b>Chat BOT</b> del Hospital Pediátrico de Sinaloa, diseñado para ayudarte a obtener información rápida y eficiente sobre nuestros servicios. Los temas principales son:\n- Ubicación\n- Horarios de atención\n- Especialidades médicas\n- Información sobre el hospital\n- Contacto y teléfonos\n- Donaciones\n- Farmacia"]
+        },
+        {
+            "tag": "pagina_web",
+            "preguntas": [
+                "que es esta pagina",
+                "para que sirve esta pagina",
+                "de que trata esta pagina",
+                "que puedo hacer en esta pagina",
+                "para que es esta web",
+                "pagina",
+                "tienen pagina web",
+                "cual es su pagina",
+                "como encuentro su pagina web",
+                "donde esta su pagina",
+                "existe una pagina web del hospital",
+                "cual es la pagina web del hospital",
+                "me pueden dar la pagina web",
+                "cual es el sitio web del hospital",
+                "como accedo a la pagina web",
+                "tienen un sitio web",
+                "hay una web del hospital"
+            ],
+            "respuestas": [
+                "Contamos con una página web oficial donde podrás mantenerte al tanto de nuestras últimas noticias, actividades, campañas y todo lo nuevo que sucede en el hospital.\n¡Te invitamos a visitarla y mantenerte informado!"
+            ]
+        },
+        {
+            "tag": "redes_sociales",
+            "preguntas": [
+                "tienen redes sociales", 
+                "cuales son sus redes sociales", 
+                "donde los puedo seguir", 
+                "como los encuentro en redes",
+                "redes",
+                "redes sociales",
+                "facebook",
+                "instagram"
+            ],
+            "respuestas": ["Puedes seguirnos en nuestras redes sociales para estar al tanto de noticias, eventos y consejos de salud."]
+        },
+        {
+            "tag": "redes_sociales",
+            "preguntas": [
+                "tienen redes sociales", 
+                "cuales son sus redes sociales", 
+                "donde los puedo seguir", 
+                "como los encuentro en redes",
+                "redes",
+                "redes sociales",
+                "facebook",
+                "instagram"
+            ],
+            "respuestas": ["Puedes seguirnos en nuestras redes sociales oficiales para estar al tanto de noticias, eventos y consejos de salud."]
+        },
+        {
+            "tag": "extensiones",
+            "preguntas": [
+                "extension",
+                "extencion",
+                "extensiones",
+                "extenciones"
+            ],
+            "respuestas": [
+                "Aquie estan todas nuestra extenciones disponibles."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "preguntas": [
+                "adios", 
+                "hasta luego", 
+                "nos vemos", 
+                "bye", 
+                "hasta la proxima",
+                "hasta pronto",
+                "cuídate",
+                "cuídate mucho",
+                "saludos",
+                "saludos a todos",
+                "saludos a tu familia"
+            ],
+            "respuestas": ["¡Hasta luego! Si necesitas más ayuda, no dudes en volver. ¡Cuídate!"]
+        },
+        {
+            "tag": "gracias",
+            "preguntas": [
+                "gracias", 
+                "muchas gracias", 
+                "te agradezco", 
+                "mil gracias",
+                "gracias por tu ayuda",
+                "gracias por la informacion",
+                "gracias por ayudarme",
+                "gracias por tu apoyo",
+                "gracias por tu tiempo"
+            ],
+            "respuestas": ["¡De nada! Estoy aquí para ayudarte."]
+        },
+        {
+            "tag": "valores",
+            "preguntas": [
+                "valores",
+                "cuales son los valores del hospital",
+                "que valores promueven",
+                "valores institucionales",
+                "valores del hospital pediatrico de sinaloa",
+                "que valores practican",
+                "me puedes decir los valores",
+                "hablenme sobre los valores",
+                "tienen valores como institucion",
+                "valores humanos del hospital"
+            ],
+            "respuestas": [
+                "<b>Valores del Hospital Pediátrico de Sinaloa</b> \nPromovemos el trabajo en equipo como base para alcanzar metas comunes, fomentamos el profesionalismo mediante un servicio de calidad, compromiso social y amor por lo que hacemos, y practicamos la honestidad como principio fundamental para actuar con integridad y disposición al cambio en beneficio de nuestros pacientes y la sociedad."
+            ]
+        },
+        {
+            "tag": "mision_vision",
+            "preguntas": [
+                "mision y vision",
+                "mision",
+                "vision",
+                "cual es la mision y vision del hospital",
+                "cual es la mision",
+                "cual es la vision",
+                "mision y vision del hospital",
+                "me puedes decir la mision y vision",
+                "objetivos del hospital",
+                "mision del hospital",
+                "vision del hospital",
+                "que busca el hospital",
+                "que objetivo tiene el hospital pediatrico de sinaloa",
+                "que quieren lograr como hospital",
+                "a donde quiere llegar el hospital"
+            ],
+            "respuestas": [
+                "<b>Misión:</b> Brindar atención médica especializada y ética a la población infantil, con calidez humana y compromiso social."
+            ]
+        },
+        {
+            "tag": "alianza_estrategica",
+            "preguntas": [
+                "alianza estrategica",
+                "alianza",
+                "aliansa",
+                "estrategica",
+                "alianza estrategica con el hospital",
+                "alianza estrategica del hospital pediatrico de sinaloa",
+                "alianza estrategica del hospital pediatrico de sinaloa con la universidad autonoma de sinaloa",
+                "aliansa estrategica",
+                "aliansa",
+                "aliansa",
+                "aliansa estrategica con el hospital",
+                "aliansa estrategica del hospital pediatrico de sinaloa",
+                "aliansa estrategica del hospital pediatrico de sinaloa con la universidad autonoma de sinaloa"
+            ],
+            "respuestas": [
+                
+                "Esta área se encarga de gestionar convenios, fortalecer la vinculación institucional y promover colaboraciones con organismos nacionales e internacionales en beneficio del hospital y sus pacientes. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "almacen_general",
+            "preguntas": [
+                "almacen",
+                "almasen",
+                "general",
+                "almacen general del hospital pediatrico de sinaloa",
+                "almacen general",
+                "almacen general del hospital",
+                "almacenes",
+                "almacen del hospital",
+                "almacen del hospital pediatrico de sinaloa",
+                "almacen del hospital pediatrico de sinaloa con la universidad autonoma de sinaloa"
+            ],
+            "respuestas": [
+                "Su función principal es garantizar la recepción, resguardo, control y distribución eficiente de insumos, medicamentos y materiales necesarios para el óptimo funcionamiento del hospital. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "sub_almacen",
+            "preguntas": [
+                "almacen",
+                "almasen",
+                "sub almacen",
+                "sub",
+                "sut amacen",
+                "sut",
+                "que es el sub almacen",
+                "que es el subalmacen",
+                "funciones del sub almacen",
+                "funciones del subalmacen",
+                "para que sirve el sub almacen",
+                "para que sirve el subalmacen",
+                "donde esta el sub almacen",
+                "donde esta el subalmacen",
+                "que hacen en el sub almacen del hospital",
+                "que hacen en el subalmacen del hospital",
+                "informacion sobre el sub almacen",
+                "informacion sobre el subalmacen",
+                "como contactar al sub almacen",
+                "como contactar al subalmacen",
+                "quien administra el sub almacen",
+                "quien administra el subalmacen",
+                "que se guarda en el sub almacen",
+                "que se guarda en el subalmacen",
+                "como funciona el sub almacen",
+                "como funciona el subalmacen",
+                "sub almacen del hospital pediatrico de sinaloa",
+                "subalmacen del hospital pediatrico de sinaloa"
+            ],
+            "respuestas": [
+                "El subalmacén se encarga del manejo y distribución específica de ciertos insumos o áreas dentro del hospital. Para más detalles, consulta los canales oficiales del Hospital Pediátrico de Sinaloa."
+            ]
+        },        
+        {
+            "tag": "apoyo_nutricional",
+            "preguntas": [
+                "apoyo nutricional",
+                "apoyo nutrisional",
+                "apoyo",
+                "nutricional",
+                "nutrisional",
+                "nutricion",
+                "nutrision",
+                "nutricionista",
+                "nutrisionista",
+                "nutriologo",
+                "area de apoyo nutricional",
+                "nutricion",
+                "nutricional",
+                "departamento de nutrición",
+                "servicio de apoyo nutricional",
+                "nutricion del hospital",
+                "nutricion hospitalaria",
+                "nutriólogo",
+                "nutricionista",
+                "apoyo nutricional del hospital",
+                "area nutricional del hospital pediatrico de sinaloa"
+            ],
+            "respuestas": [
+                "Esta área es responsable de evaluar, planificar y supervisar la alimentación de los pacientes hospitalizados, garantizando que reciban una nutrición adecuada y personalizada de acuerdo a sus necesidades médicas. Además, colabora con otras áreas clínicas para apoyar el tratamiento y la recuperación de los pacientes. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "archivo_clinico",
+            "preguntas": [
+                "archivo clinico",
+                "archivo",
+                "clinico",
+                "historial médico",
+                "expediente clínico",
+                "expedientes médicos",
+                "dónde está el archivo clínico",
+                "quién administra el archivo clinico",
+                "archivo del hospital",
+                "archivo clínico del hospital pediatrico de sinaloa"
+            ],
+            "respuestas": [
+                "Esta área es responsable de organizar, custodiar y controlar el acceso a los expedientes clínicos de los pacientes, asegurando la confidencialidad, integridad y disponibilidad de la información médica. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "aula_capacitacion",
+            "preguntas": [
+                "aula de capacitacion",
+                "aula",
+                "capacitacion",
+                "capacitaciones",
+                "capasitacion",
+                "capacitasion",
+                "capasitasion",
+                "capasitaciones",
+                "capasitasiones",
+                "capacitazion",
+                "capasitazion",
+                "capasitaziones",
+                "capacitaziones",
+                "quiero una capasitacion",
+                "quiero una capacitacion",
+                "como accedo a una capacitacion",
+                "como accedo a una capasitacion",
+                "informacion sobre aula de capacitacion",
+                "informacion sobre aula de capasitacion",
+                "donde esta el aula de capacitacion",
+                "quien administra el aula de capacitacion",
+                "aula de capacitacion hospital pediatrico de sinaloa",
+                "capacitaciones hospital",
+                "capasitaciones hospital"
+            ],
+            "respuestas": [
+                "Esta área se encarga de coordinar, organizar y brindar espacios de formación, actualización y desarrollo profesional para el personal del hospital. Contribuye al fortalecimiento de competencias técnicas y humanas que impactan directamente en la calidad de atención a los pacientes. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "biomedica_ingenieria",
+            "preguntas": [
+                "biomedica",
+                "biomedica ingenieria",
+                "ingenieria biomedica",
+                "departamento de biomedica",
+                "area de biomedica",
+                "area de ingenieria biomedica",
+                "biomedika",
+                "vimedica",
+                "injenieria",
+                "inyenieria",
+                "biomedica hospital",
+                "ingenieria hospital",
+                "quien administra biomedica",
+                "quien es el encargado de biomedica",
+                "ingenieria hospital pediatrico de sinaloa",
+                "biomedica hospital pediatrico de sinaloa",
+                "equipo medico mantenimiento",
+                "soporte tecnico de equipos medicos"
+            ],
+            "respuestas": [
+                "Se encarga de supervisar, mantener y garantizar el funcionamiento óptimo del equipamiento médico utilizado en el hospital. Su labor es esencial para asegurar la disponibilidad, seguridad y eficacia de los dispositivos médicos utilizados en la atención a los pacientes. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "calidad",
+            "preguntas": [
+                "calidad",
+                "calidad hospitalaria",
+                "hospitalaria",
+                "calidad del hospital",
+                "calidad hospital pediatrico de sinaloa",
+                "calidad hospital pediatrico",
+                "calidad hospitalaria pediatrico de sinaloa",
+                "calidad hospitalaria pediatrico",
+                "quien administra calidad",
+                "quien es el encargado de calidad",
+                "area de calidad",
+                "departamento de calidad"
+            ],
+            "respuestas": [
+                "Esta area se encarga de implementar y supervisar los sistemas de gestión de calidad en el hospital, asegurando que se cumplan los estándares y protocolos establecidos para brindar una atención segura y eficaz a los pacientes. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "cardiologia",
+            "preguntas": [
+                "cardio",
+                "cardiologia",
+                "tienen cardiologos",
+                "me pueden atender por problemas del corazon",
+                "area de cardiologia",
+                "consultas de cardiologia",
+                "hay especialistas en el corazon",
+                "puedo agendar una cita con cardiologia",
+                "donde esta el area de cardiologia",
+                "quiero ver a un cardiologo",
+                "quien es el cardiologo del hospital",
+                "cual es el horario de cardiologia",
+                "como puedo consultar con cardiologia",
+                "cardiologo disponible",
+                "atencion cardiologica pediatrica"
+            ],
+            "respuestas": [
+                "Aqui se ofrece atención especializada en enfermedades del corazón en niños. Para citas o información, comunícate por los canales oficiales del hospital."
+            ]
+        },
+        {
+            "tag": "central_de_cuentas",
+            "preguntas": [
+                "central de cuentas",
+                "central",
+                "cuentas",
+                "area de central de cuentas",
+                "departamento de central de cuentas",
+                "donde esta central de cuentas",
+                "que hace la central de cuentas",
+                "funcion de central de cuentas",
+                "trabajan en central de cuentas",
+                "informacion de central de cuentas",
+                "puedo ir a central de cuentas",
+                "me pueden ayudar en central de cuentas"
+            ],
+            "respuestas": [
+                "Área fundamental en el funcionamiento administrativo del hospital, ya que garantiza el adecuado registro y control de los servicios médicos prestados. Se encarga de validar, consolidar y cerrar las cuentas hospitalarias de los pacientes, asegurando que toda la información esté correctamente documentada para facilitar los procesos de facturación y egresos. Para mayor información, te recomendamos acudir directamente al área o contactar a través de los canales oficiales."
+            ]
+        },
+        {
+            "tag": "centro_mezclas",
+            "preguntas": [
+                "centro de mezclas",
+                "area de centro de mezclas",
+                "departamento de mezclas",
+                "que hacen en el centro de mezclas",
+                "funcion del centro de mezclas",
+                "donde esta el centro de mezclas",
+                "que es el centro de mezclas",
+                "me pueden dar informacion del centro de mezclas",
+                "que hacen en el area de mezclas",
+                "quien trabaja en el centro de mezclas"
+            ],
+            "respuestas": [
+                "Área especializada encargada de preparar de manera segura y estéril las soluciones intravenosas, nutriciones parenterales y medicamentos que requieren condiciones específicas. Su función principal es asegurar que las mezclas cumplan con los estándares de calidad y seguridad, optimizando el tratamiento médico de los pacientes hospitalizados. Para más detalles, puedes acercarte directamente al área o consultar los canales oficiales del hospital."
+            ]
+        },
+        {
+            "tag": "ceye",
+            "preguntas": [
+                "ceye",
+                "area de ceye",
+                "departamento de ceye",
+                "que hacen en ceye",
+                "funcion de ceye",
+                "que es ceye",
+                "trabajan en ceye",
+                "que significa ceye",
+                "quien trabaja en ceye",
+                "informacion de ceye"
+            ],
+            "respuestas": [
+                "Central de Equipos y Esterilización. Área responsable de la limpieza, preparación, esterilización y distribución del material e instrumental médico quirúrgico que se utiliza en todo el hospital. Su labor garantiza condiciones de seguridad y asepsia en los procedimientos, previniendo infecciones y asegurando el bienestar de los pacientes. "
+            ]
+        },
+        {
+            "tag": "cirugia",
+            "preguntas": [
+                "cirugia",
+                "area de cirugia",
+                "departamento de cirugia",
+                "que hacen en cirugia",
+                "funcion de cirugia",
+                "quien esta en cirugia",
+                "quien es el encargado de cirugia",
+                "informacion de cirugia",
+                "trabajan en cirugia",
+                "quiero saber sobre cirugia"
+            ],
+            "respuestas": [
+                "Se encarga de realizar procedimientos quirúrgicos programados y de urgencia, brindando atención especializada a los pacientes pediátricos que requieren intervención médica. Su labor es fundamental para el diagnóstico, tratamiento y recuperación de diversas patologías. Acude directamente al área o consultar los canales oficiales del hospital."
+            ]
+        },
+        {
+            "tag": "clinica_heridas",
+            "preguntas": [
+                "clinica de heridas",
+                "area de heridas",
+                "donde esta la clinica de heridas",
+                "quien esta en clinica de heridas",
+                "quien es el encargado de la clinica de heridas",
+                "que hacen en clinica de heridas",
+                "informacion de clinica de heridas",
+                "me pueden atender en clinica de heridas",
+                "clinica especializada en heridas",
+                "heridas",
+                "heridas pediátricas",
+                "heridas agudas",
+                "clinica",
+                "heridos"
+            ],
+            "respuestas": [
+                "Esta área se especializa en la valoración, tratamiento y seguimiento de heridas agudas y crónicas en pacientes pediátricos, con el objetivo de acelerar su recuperación y prevenir complicaciones. Se trabaja con técnicas avanzadas y un enfoque integral. Para mayor información, te recomendamos acudir directamente al área o comunicarte por los canales oficiales del hospital."
+            ]
+        },
+        {
+            "tag": "cobranza",
+            "preguntas": [
+                "cobranza",
+                "cobro",
+                "pago",
+                "pagar",
+                "cobrar",
+                "area de cobro",
+                "area de pago",
+                "area de cobranza",
+                "departamento de cobranza",
+                "que hacen en cobranza",
+                "funcion de cobranza",
+                "donde esta cobranza",
+                "me pueden atender en cobranza",
+                "a donde voy a pagar",
+                "donde se hacen los pagos",
+                "informacion de cobranza"
+            ],
+            "respuestas": [
+                "El área de Cobranza se encarga de gestionar los pagos correspondientes a los servicios médicos brindados en el hospital. Aquí se reciben los pagos de consultas, estudios, procedimientos y otros servicios, además de brindar información relacionada con tarifas y métodos de pago. Para atención personalizada, te recomendamos acudir directamente al área o comunicarte a través de los canales oficiales."
+            ]
+        },
+        {
+            "tag": "cocina",
+            "preguntas": [
+                "cocina",
+                "area de cocina",
+                "departamento de cocina",
+                "que hacen en cocina",
+                "funcion de cocina",
+                "quien trabaja en cocina",
+                "donde esta la cocina",
+                "comida del hospital",
+                "quien prepara la comida",
+                "informacion de cocina"
+            ],
+            "respuestas": [
+                "El área de Cocina es la encargada de preparar y distribuir los alimentos para los pacientes, personal médico y administrativo del hospital. Su labor es fundamental para garantizar una alimentación nutritiva, segura y adecuada a las necesidades médicas de cada paciente, siguiendo estrictos controles de higiene y calidad. Para más detalles, puedes acudir directamente al área o informarte a través de los canales oficiales."
+            ]
+        },
+        {
+            "tag": "consulta_externa",
+            "preguntas": [
+                "consulta externa",
+                "area de consulta externa",
+                "departamento de consulta externa",
+                "quien esta en consulta externa",
+                "quien es el encargado de consulta externa",
+                "que hacen en consulta externa",
+                "informacion de consulta externa",
+                "como funciona consulta externa",
+                "me pueden atender en consulta externa",
+                "consultas medicas",
+                "consultas",
+                "consulta",
+                "externa",
+                "consultas pediátricas",
+                "atencion medica pediatrica",
+                "atencion medica"
+            ],
+            "respuestas": [
+                "Aquí se brinda atención médica especializada a pacientes pediátricos en un entorno ambulatorio, lo que permite recibir diagnóstico, tratamiento y seguimiento sin necesidad de hospitalización. Es una de las áreas clave para la detección temprana y el control de diversas enfermedades. Para más información, puedes acudir directamente al área o contactar por los canales oficiales del hospital."
+            ]
+        },
+        {
+            "tag": "contabilidad_oficina",
+            "preguntas": [
+                "contabilidad",
+                "contabilidad oficina",
+                "oficina de contabilidad",
+                "donde esta la oficina de contabilidad",
+                "ubicacion de la oficina de contabilidad",
+                "horario de la oficina de contabilidad",
+                "quien esta en la oficina de contabilidad",
+                "quien es el encargado de la oficina de contabilidad",
+                "que hacen en la oficina de contabilidad",
+                "informacion de la oficina de contabilidad",
+                "como funciona la oficina de contabilidad",
+                "me pueden ayudar en la oficina de contabilidad",
+                "atencion en oficina de contabilidad",
+                "consultas en oficina de contabilidad",
+                "tramites en oficina de contabilidad",
+                "recibos en oficina de contabilidad",
+                "facturas en oficina de contabilidad",
+                "cuentas por pagar en oficina de contabilidad",
+                "cuentas por cobrar en oficina de contabilidad"
+            ],
+            "respuestas": [
+                "La oficina de contabilidad es responsable de gestionar todo lo relacionado con pagos, facturación, recibos y control financiero del hospital. Puedes acudir para resolver dudas sobre trámites contables, solicitar recibos o consultar sobre cuentas por pagar o cobrar. Está disponible en horario de oficina y también puedes comunicarte por los canales oficiales."
+            ]
+        },
+        {
+            "tag": "dental",
+            "preguntas": [
+                "estomatologia",
+                "estomatologo",
+                "odontologo",
+                "odontologia",
+                "odontologia pediatrica",
+                "odontopediatria",
+                "ortodoncia",
+                "ortodonsia",
+                "dental",
+                "area dental",
+                "departamento dental",
+                "consultorio dental",
+                "donde esta el area dental",
+                "ubicacion de dental",
+                "quien esta en el area dental",
+                "quien es el encargado de dental",
+                "que hacen en dental",
+                "informacion de dental",
+                "como funciona el area dental",
+                "atencion dental",
+                "consultas dentales",
+                "tratamientos dentales",
+                "citas dentales",
+                "me pueden atender en dental",
+                "servicios dentales"
+            ],
+            "respuestas": [
+                "El área dental del hospital ofrece atención odontológica especializada para niños y adolescentes, incluyendo consultas, tratamientos preventivos y curativos, así como servicios de Estomatología y Ortodoncia. Puedes acudir para programar una cita o recibir orientación sobre salud bucal. Para más información, visita directamente el consultorio dental o comunícate por los canales oficiales."
+            ]
+        },
+        {
+            "tag": "enfermeria_ensenanza",
+            "preguntas": [
+                "enfermeria",
+                "ensenanza",
+                "enseñanza",
+                "enfermeria ensenanza",
+                "area de enfermeria ensenanza",
+                "departamento de enfermeria ensenanza",
+                "oficina de enfermeria ensenanza",
+                "quien esta en enfermeria ensenanza",
+                "quien es el encargado de enfermeria ensenanza",
+                "que hacen en enfermeria ensenanza",
+                "informacion de enfermeria ensenanza",
+                "como funciona enfermeria ensenanza",
+                "me pueden ayudar en enfermeria ensenanza",
+                "formacion en enfermeria",
+                "capacitacion de enfermeria",
+                "programas de ensenanza en enfermeria",
+                "ensenanza para personal de enfermeria",
+                "enfermeria enseñanza",
+                "area de enfermeria enseñanza",
+                "departamento de enfermeria enseñanza",
+                "oficina de enfermeria enseñanza",
+                "quien esta en enfermeria enseñanza",
+                "quien es el encargado de enfermeria enseñanza",
+                "que hacen en enfermeria enseñanza",
+                "informacion de enfermeria enseñanza",
+                "como funciona enfermeria enseñanza",
+                "me pueden ayudar en enfermeria enseñanza",
+                "formacion en enfermeria",
+                "capacitacion de enfermeria",
+                "programas de enseñanza en enfermeria",
+                "enseñanza para personal de enfermeria"
+            ],
+            "respuestas": [
+                "Esta área se encarga de la capacitación, actualización y formación continua del personal de enfermería. Aquí se coordinan programas educativos, talleres y actividades académicas para fortalecer las competencias profesionales del personal. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "enfermeria_jefatura",
+            "preguntas": [
+                "enfermeria",
+                "jefatura",
+                "jefatura enfermeria secretaria",
+                "enfermeria jefatura secretaria",
+                "jefatura de enfermeria secretaria",
+                "enfermeria de jefatura",
+                "enfermeria jefatura",
+                "jefatura de enfermeria",
+                "area de enfermeria jefatura",
+                "departamento de enfermeria jefatura",
+                "secretaria de jefatura de enfermeria",
+                "quien esta en enfermeria jefatura",
+                "quien es el encargado de enfermeria jefatura",
+                "quien es la jefa de enfermeria",
+                "informacion de enfermeria jefatura",
+                "como funciona enfermeria jefatura",
+                "me pueden ayudar en enfermeria jefatura",
+                "direccion de enfermeria",
+                "coordinacion de enfermeria"
+            ],
+            "respuestas": [
+                "Área encargada de coordinar, supervisar y organizar al personal de enfermería en todas las áreas del hospital. Su función principal es garantizar una atención segura, eficiente y de calidad para los pacientes. También se encarga de establecer lineamientos, horarios y asignaciones del personal. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "enfermeria_subjefatura",
+            "preguntas": [
+                "subjefatura",
+                "subjefatura enfermeria",
+                "enfermeria subjefatura",
+                "subjefatura de enfermeria",
+                "area de enfermeria subjefatura",
+                "departamento de enfermeria subjefatura",
+                "oficina de subjefatura de enfermeria",
+                "quien esta en enfermeria subjefatura",
+                "quien es el encargado de enfermeria subjefatura",
+                "quien es la subjefa de enfermeria",
+                "informacion de enfermeria subjefatura",
+                "como funciona enfermeria subjefatura",
+                "me pueden ayudar en enfermeria subjefatura",
+                "apoyo de la jefatura de enfermeria",
+                "coordinacion adjunta de enfermeria"
+            ],
+            "respuestas": [
+                "Esta área se encarga de apoyar en la supervisión, organización y gestión del personal de enfermería, trabajando en conjunto con la jefatura para asegurar el cumplimiento de los estándares de atención y operatividad en los diferentes servicios. Para más información, por favor utiliza los canales oficiales."
+            ]
+
+        },
+        {
+            "tag": "ensenanza_dos",
+            "preguntas": [
+                "dos",
+                "enseñanza dos",
+                "area de enseñanza dos",
+                "departamento de enseñanza dos",
+                "oficina de enseñanza dos",
+                "quien esta en enseñanza dos",
+                "quien es el encargado de enseñanza dos",
+                "informacion de enseñanza dos",
+                "como funciona enseñanza dos",
+                "me pueden ayudar en enseñanza dos",
+                "programas de enseñanza dos",
+                "formacion en enseñanza dos",
+                "cursos de enseñanza dos",
+                "ensenanza dos",
+                "area de enseñanza dos",
+                "departamento de enseñanza dos",
+                "oficina de enseñanza dos",
+                "quien esta en enseñanza dos",
+                "quien es el encargado de enseñanza dos",
+                "informacion de enseñanza dos",
+                "como funciona enseñanza dos",
+                "me pueden ayudar en enseñanza dos",
+                "programas de enseñanza dos",
+                "formacion en enseñanza dos",
+                "cursos de enseñanza dos"
+            ],
+            "respuestas": [
+                "Esta área se encarga de coordinar y administrar los programas educativos y de formación para el personal, enfocándose en la actualización y capacitación continua. También gestiona los cursos y talleres de enseñanza dentro del hospital. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "ensenanza_investigacion_medica",
+            "preguntas": [
+                "jefe de enseñansa",
+                "jefa de enseñansa",
+                "jefe de enseñanza",
+                "jefa de enseñanza",
+                "quien es el jefe de enseñanza medica",
+                "quien es la jefa de enseñanza medica",
+                "jefe de enseñanza medica",
+                "jefa de enseñanza medica",
+                "quien esta a cargo de enseñanza medica",
+                "encargado de enseñanza medica",
+                "encargada de enseñanza medica",
+                "coordinador de enseñanza medica",
+                "coordinadora de enseñanza medica",
+                "responsable de enseñanza medica",
+                "quien dirige enseñanza medica",
+                "lider de enseñanza medica",
+                "quien lidera enseñanza medica",
+                "quien es el responsable de enseñanza medica",
+                "quien es la persona encargada de enseñanza medica",
+                "me pueden decir quien es el jefe de enseñanza medica",
+                "a quien puedo contactar en enseñanza medica",
+                "contacto de enseñanza medica",
+                "quien esta al frente de enseñanza medica",
+                "quien es el director de enseñanza medica",
+                "quien esta en enseñanza medica",
+                "quien esta encargado de enseñanza medica",
+                "quien coordina enseñanza medica",
+                "investigacion",
+                "investigasion",
+                "enseñanza investigacion",
+                "area de enseñanza investigacion",
+                "departamento de enseñanza investigacion",
+                "oficina de enseñanza investigacion",
+                "quien esta en enseñanza investigacion",
+                "quien es el encargado de enseñanza investigacion",
+                "informacion de enseñanza investigacion",
+                "como funciona enseñanza investigacion",
+                "me pueden ayudar en enseñanza investigacion",
+                "proyectos de investigacion",
+                "formacion en investigacion",
+                "actividades de enseñanza investigacion",
+                "ensenanza investigacion",
+                "area de ensenanza investigacion",
+                "departamento de ensenanza investigacion",
+                "oficina de ensenanza investigacion",
+                "quien esta en ensenanza investigacion",
+                "quien es el encargado de ensenanza investigacion",
+                "informacion de ensenanza investigacion",
+                "como funciona ensenanza investigacion",
+                "me pueden ayudar en ensenanza investigacion",
+                "actividades de ensenanza investigacion"
+            ],
+            "respuestas": [
+                "Esta área se encarga de promover y coordinar actividades académicas y de investigación en el hospital, fomentando la generación de conocimiento y el desarrollo científico en el ámbito pediátrico. Además, apoya a estudiantes y profesionales en la elaboración de proyectos de investigación. Para más información, por favor utiliza los canales oficiales."
+            ]
+        },
+        {
+            "tag": "especialidades_area",
+            "preguntas": [
+                "area de especialidades",
+                "departamento de especialidades",
+                "oficina de especialidades",
+                "quien esta en especialidades",
+                "quien es el encargado de especialidades",
+                "informacion de especialidades",
+                "como funciona especialidades",
+                "me pueden ayudar en especialidades",
+                "servicios de especialidades",
+                "atencion en especialidades",
+                "que hacen en especialidades",
+                "cuales son las especialidades",
+                "puedo saber las especialidades medicas",
+                "lista de especialidades",
+                "division de especialidades",
+                "area de espesialidades",
+                "departamento de espesialidades",
+                "oficina de espesialidades",
+                "quien esta en espesialidades",
+                "quien es el encargado de espesialidades",
+                "informacion de espesialidades",
+                "como funciona espesialidades",
+                "me pueden ayudar en espesialidades",
+                "servicios de espesialidades",
+                "atencion en espesialidades",
+                "que hacen en espesialidades",
+                "cuales son las espesialidades",
+                "puedo saber las espesialidades medicas",
+                "lista de espesialidades",
+                "division de espesialidades"
+            ],
+            "respuestas": [
+                "Se brinda atención médica en diversas ramas de la pediatría, permitiendo el diagnóstico y tratamiento especializado de distintas condiciones. Para conocer la lista completa o agendar una cita, consulta los canales oficiales."
+            ]
+        },
+        {
+            "tag": "espesialidades_enfermeria",
+            "preguntas": [
+                "espesialidades enfermeria",
+                "enfermeria espesialidades",
+                "area de espesialidades enfermeria",
+                "departamento de espesialidades enfermeria",
+                "oficina de espesialidades enfermeria",
+                "quien esta en espesialidades enfermeria",
+                "quien es el encargado de espesialidades enfermeria",
+                "informacion de espesialidades enfermeria",
+                "como funciona espesialidades enfermeria",
+                "me pueden ayudar en espesialidades enfermeria",
+                "servicios de espesialidades enfermeria",
+                "atencion en espesialidades enfermeria",
+                "que hacen en espesialidades enfermeria",
+                "cuales son las espesialidades de enfermeria",
+                "lista de espesialidades enfermeria",
+                "division de espesialidades enfermeria"
+            ],
+            "respuestas": [
+                "Se brinda atención especializada por parte del personal de enfermería en diferentes áreas clínicas, fortaleciendo la calidad del cuidado y el apoyo integral a los pacientes pediátricos."
+            ]
+        },
+        {
+            "tag": "epidemiologia",
+            "preguntas": [
+                "epi",
+                "epidemiologia",
+                "epidemiologia hospital",
+                "epidemiologia pediatrica",
+                "epidemiologia area",
+                "area de epidemiologia",
+                "departamento de epidemiologia",
+                "oficina de epidemiologia",
+                "quien esta en epidemiologia",
+                "quien es el encargado de epidemiologia",
+                "informacion de epidemiologia",
+                "como funciona epidemiologia",
+                "me pueden ayudar en epidemiologia",
+                "servicios de epidemiologia",
+                "atencion en epidemiologia",
+                "que hacen en epidemiologia"
+            ],
+            "respuestas": [
+                "Se encarga de la vigilancia, prevención y control de enfermedades, así como del análisis de datos para la toma de decisiones en salud pública dentro del hospital."
+            ]
+        },
+        {
+            "tag": "gastroenterologia",
+            "preguntas": [
+                "gastro",
+                "gastroenterologia",
+                "area de gastroenterologia",
+                "gastroterologia area",
+                "departamento de gastroenterologia",
+                "quien esta en gastroenterologia",
+                "quien es el encargado de gastroenterologia",
+                "informacion de gastroenterologia",
+                "como funciona gastroenterologia",
+                "me pueden ayudar en gastroenterologia",
+                "servicios de gastroenterologia",
+                "atencion en gastroenterologia",
+                "que hacen en gastroenterologia",
+                "tratamientos en gastroenterologia",
+                "consultas de gastroenterologia"
+            ],
+            "respuestas": [
+                "Se realizan procedimientos diagnósticos y terapéuticos mínimamente invasivos que permiten examinar el tracto digestivo de forma segura y precisa en pacientes pediátricos."
+            ]
+        },
+        {
+            "tag": "gastroenterologia_oficina",
+            "preguntas": [
+                "oficina gastro",
+                "gastro oficina",
+                "oficina de gastroenterologia",
+                "gastroenterologia oficina",
+                "donde esta la oficina de gastroenterologia",
+                "me pueden atender en la oficina de gastroenterologia",
+                "informacion en la oficina de gastroenterologia",
+                "a quien puedo preguntar en la oficina de gastroenterologia",
+                "quien esta en la oficina de gastroenterologia",
+                "contacto de la oficina de gastroenterologia",
+                "quiero ir a la oficina de gastroenterologia",
+                "telefono de la oficina de gastroenterologia",
+                "ubicacion de la oficina de gastroenterologia"
+            ],
+            "respuestas": [
+                "Brinda atención administrativa, canalización y orientación sobre consultas, procedimientos y programación relacionada con el servicio de gastroenterología."
+            ]
+        },
+        {
+            "tag": "quirofano_endoscopia",
+            "preguntas": [
+                "endoscopia",
+                "endoscopia quirofano", 
+                "quirofano de endoscopia",
+                "area de endoscopia",
+                "donde esta el quirofano de endoscopia",
+                "quien atiende en endoscopia",
+                "procedimientos en endoscopia",
+                "que hacen en el quirofano de endoscopia",
+                "quien es el encargado de endoscopia",
+                "informacion sobre endoscopia",
+                "me pueden ayudar en endoscopia",
+                "intervenciones en endoscopia",
+                "quien coordina el quirofano de endoscopia",
+                "oficina de endoscopia",
+                "consultas de endoscopia",
+                "preparacion para endoscopia",
+                "donde me atienden para endoscopia"
+            ],
+            "respuestas": [
+                "Se realizan procedimientos digestivos mínimamente invasivos con atención especializada y enfoque integral para pacientes pediátricos."
+            ]
+        },
+        {
+            "tag": "genetica",
+            "preguntas": [
+                "genetica",
+                "area de genetica",
+                "genetica area",
+                "departamento de genetica",
+                "oficina de genetica",
+                "quien esta en genetica",
+                "quien es el encargado de genetica",
+                "informacion de genetica",
+                "como funciona genetica",
+                "me pueden ayudar en genetica",
+                "consultas de genetica",
+                "servicios de genetica",
+                "atencion en genetica",
+                "resultados de genetica",
+                "estudios geneticos",
+                "donde atienden en genetica"
+            ],
+            "respuestas": [
+                "Se ofrece evaluación, diagnóstico y orientación a pacientes con posibles enfermedades de origen genético, apoyando con estudios especializados y asesoramiento clínico."
+            ]
+        },
+        {
+            "tag": "infectologia",
+            "preguntas": [
+                "infectologia",
+                "area de infectologia",
+                "infectologia area",
+                "departamento de infectologia",
+                "oficina de infectologia",
+                "quien esta en infectologia",
+                "quien es el encargado de infectologia",
+                "informacion de infectologia",
+                "como funciona infectologia",
+                "me pueden ayudar en infectologia",
+                "consultas de infectologia",
+                "servicios de infectologia",
+                "atencion en infectologia",
+                "tratamiento de infecciones",
+                "donde atienden en infectologia",
+                "infecciones en ninos",
+                "quien atiende enfermedades infecciosas"
+            ],
+            "respuestas": [
+                "Se brinda atención especializada para la prevención, diagnóstico y tratamiento de enfermedades infecciosas en pacientes pediátricos, con enfoque clínico integral."
+            ]
+        },
+        {
+            "tag": "informatica",
+            "preguntas": [
+                "informatica",
+                "area de informatica",
+                "informatica area",
+                "departamento de informatica",
+                "oficina de informatica",
+                "quien esta en informatica",
+                "quien es el encargado de informatica",
+                "informacion de informatica",
+                "como funciona informatica",
+                "me pueden ayudar en informatica",
+                "servicio de informatica",
+                "soporte tecnico",
+                "quien da soporte tecnico",
+                "problemas con la computadora",
+                "ayuda con el sistema",
+                "fallas en el sistema",
+                "a quien reporto problemas informaticos"
+            ],
+            "respuestas": [
+                "Brinda soporte técnico, mantenimiento de equipos y sistemas, así como asistencia en el uso de plataformas digitales institucionales para personal médico y administrativo."
+            ]
+        },
+        {
+            "tag": "informes_recepcion",
+            "preguntas": [
+                "informes",
+                "recepcion",
+                "donde esta informes",
+                "informes planta baja",
+                "informes recepcion",
+                "donde esta la recepcion",
+                "recepcion planta baja",
+                "quien atiende en informes",
+                "informacion en informes",
+                "a donde voy para informes",
+                "necesito informes",
+                "donde dan informes",
+                "me pueden dar informes",
+                "quiero preguntar en recepcion",
+                "oficina de informes",
+                "atencion en informes",
+                "donde esta la oficina de recepcion",
+                "me pueden ayudar en recepcion",
+                "quien esta en recepcion",
+                "a quien pregunto en recepcion",
+                "informacion en recepcion",
+                "donde me atienden en recepcion",
+                "quien atiende en recepcion",
+                "recepcion hospital",
+                "servicio de recepcion"
+            ],
+            "respuestas": [
+                "Ofrece orientación general a usuarios y visitantes, resolviendo dudas sobre ubicaciones, trámites, servicios y canalizando a las áreas correspondientes desde la entrada principal del hospital."
+            ]
+        },
+        {
+            "tag": "inhaloterapia",
+            "preguntas": [
+                "inhaloterapia",
+                "area de inhaloterapia",
+                "inhaloterapia area",
+                "inha",
+                "ina",
+                "departamento de inhaloterapia",
+                "oficina de inhaloterapia",
+                "quien esta en inhaloterapia",
+                "quien es el encargado de inhaloterapia",
+                "informacion de inhaloterapia",
+                "como funciona inhaloterapia",
+                "me pueden ayudar en inhaloterapia",
+                "tratamientos en inhaloterapia",
+                "atencion en inhaloterapia",
+                "quien atiende en inhaloterapia",
+                "donde se encuentra inhaloterapia",
+                "inhalaciones hospital",
+                "terapia respiratoria",
+                "ayuda para respirar",
+                "servicio de inhaloterapia"
+            ],
+            "respuestas": [
+                "Brinda atención especializada en el manejo de terapias respiratorias, apoyando en la administración de tratamientos para mejorar la función pulmonar de pacientes pediátricos."
+            ]
+        },
+        {
+            "tag": "terapia_respiratoria",
+            "preguntas": [
+                "terapia respiratoria",
+                "area de terapia respiratoria",
+                "terapia respiratoria area",	
+                "oficina de terapia respiratoria",
+                "departamento de terapia respiratoria",
+                "quien esta en terapia respiratoria",
+                "quien es el encargado de terapia respiratoria",
+                "informacion de terapia respiratoria",
+                "como funciona terapia respiratoria",
+                "me pueden ayudar en terapia respiratoria",
+                "terapia pulmonar",
+                "tratamientos para respirar",
+                "atencion en terapia respiratoria",
+                "quien atiende en terapia respiratoria",
+                "donde se encuentra terapia respiratoria",
+                "terapia respiratoria inhaloterapia",
+                "servicio de terapia respiratoria",
+                "equipo de terapia respiratoria",
+                "quien realiza terapia respiratoria",
+                "diferencia entre terapia respiratoria e inhaloterapia"
+            ],
+            "respuestas": [
+                "Ofrece manejo integral de tratamientos respiratorios, asistiendo en el uso de oxígeno, nebulizaciones y equipos especializados para mejorar la función pulmonar en pacientes pediátricos."
+            ]
+        },
+        {
+            "tag": "juridico",
+            "preguntas": [
+                "juridico",
+                "area de juridico",
+                "juridico area",
+                "departamento de juridico",
+                "oficina de juridico",
+                "quien esta en juridico",
+                "quien es el encargado de juridico",
+                "informacion de juridico",
+                "como funciona juridico",
+                "me pueden ayudar en juridico",
+                "asesoria legal",
+                "servicio juridico",
+                "donde esta el juridico",
+                "apoyo legal",
+                "quien atiende en juridico",
+                "tramites legales en el hospital",
+                "ayuda juridica",
+                "juridico hospital"
+            ],
+            "respuestas": [
+                "Brinda asesoría legal institucional, apoyo en la revisión de documentos oficiales, atención a trámites jurídicos y acompañamiento en procesos relacionados con normativas y derechos dentro del hospital."
+            ]
+        },
+        {
+            "tag": "laboratorio",
+            "preguntas": [
+                "laboratorio",
+                "area de laboratorio",
+                "Laboratorio area",
+                "departamento de laboratorio",
+                "oficina de laboratorio",
+                "quien esta en laboratorio",
+                "quien es el encargado de laboratorio",
+                "informacion de laboratorio",
+                "como funciona laboratorio",
+                "me pueden ayudar en laboratorio",
+                "laboratorio hospital",
+                "laboratorio recepcion",
+                "donde esta la recepcion de laboratorio",
+                "recepcion laboratorio hospital",
+                "quien atiende en recepcion laboratorio",
+                "jefe de laboratorio",
+                "quien es el jefe de laboratorio",
+                "quien coordina laboratorio",
+                "laboratorio filtro",
+                "filtro laboratorio hospital",
+                "donde esta el filtro de laboratorio",
+                "a quien acudo en filtro laboratorio",
+                "laboratorio resultados",
+                "donde entregan resultados de laboratorio",
+                "entrega de muestras laboratorio"
+            ],
+            "respuestas": [
+                "Ofrece servicios de análisis clínicos, recepción de muestras, procesamiento y entrega de resultados, con personal especializado en cada área, incluyendo recepción, filtro y coordinación técnica."
+            ]
+        },
+        {
+            "tag": "mantenimiento",
+            "preguntas": [
+                "mantenimiento",
+                "area de mantenimiento",
+                "mantenimiento area",
+                "departamento de mantenimiento",
+                "oficina de mantenimiento",
+                "quien esta en mantenimiento",
+                "quien es el encargado de mantenimiento",
+                "informacion de mantenimiento",
+                "como funciona mantenimiento",
+                "me pueden ayudar en mantenimiento",
+                "reparaciones hospital",
+                "servicio de mantenimiento",
+                "solicitud de mantenimiento",
+                "reporte de mantenimiento",
+                "donde esta mantenimiento",
+                "a quien reporto fallas",
+                "fallas en hospital",
+                "quien arregla los equipos",
+                "ayuda tecnica en hospital",
+                "mantenimiento hospitalario"
+            ],
+            "respuestas": [
+                "Se encarga de atender reportes técnicos, reparar instalaciones, equipos y asegurar el buen funcionamiento de la infraestructura hospitalaria."
+            ]
+        },
+        {
+            "tag": "medicina_interna",
+            "preguntas": [
+                "interna",
+                "medicina interna",
+                "medicina interna area",
+                "area de medicina interna",
+                "departamento de medicina interna",
+                "oficina de medicina interna",
+                "quien esta en medicina interna",
+                "quien es el encargado de medicina interna",
+                "informacion de medicina interna",
+                "como funciona medicina interna",
+                "me pueden ayudar en medicina interna",
+                "doctor de medicina interna",
+                "medico de medicina interna",
+                "medicina interna hospital",
+                "quien atiende en medicina interna",
+                "servicio de medicina interna",
+                "consulta medicina interna",
+                "medisina interna",
+                "area de medisina interna",
+                "medisina interna area",
+                "departamento de medisina interna",
+                "oficina de medisina interna",
+                "quien esta en medisina interna",
+                "quien es el encargado de medisina interna",
+                "informacion de medisina interna",
+                "como funciona medisina interna",
+                "me pueden ayudar en medisina interna",
+                "doctor de medisina interna",
+                "medico de medisina interna",
+                "medisina interna hospital",
+                "quien atiende en medisina interna",
+                "servicio de medisina interna",
+                "consulta medisina interna",
+                "medisina intera",
+                "consulta de medisina intera"
+            ],
+            "respuestas": [
+                "Atiende a pacientes con enfermedades complejas o crónicas, brindando un enfoque integral en el diagnóstico y tratamiento."
+            ]
+        },
+        {
+            "tag": "medicina_legal",
+            "preguntas": [
+                "legal",
+                "medicina legal",
+                "area de medicina legal",
+                "medicina legal area",
+                "departamento de medicina legal",
+                "oficina de medicina legal",
+                "quien esta en medicina legal",
+                "quien es el encargado de medicina legal",
+                "informacion de medicina legal",
+                "como funciona medicina legal",
+                "me pueden ayudar en medicina legal",
+                "medico de medicina legal",
+                "medicina legal hospital",
+                "servicio de medicina legal",
+                "consulta medicina legal",
+                "medisina legal",
+                "area de medisina legal",
+                "medisina legal area",
+                "departamento de medisina legal",
+                "oficina de medisina legal",
+                "quien esta en medisina legal",
+                "quien es el encargado de medisina legal",
+                "informasion de medisina legal",
+                "como funciona medisina legal",
+                "me pueden ayudar en medisina legal",
+                "medico de medisina legal",
+                "medisina legal hospital",
+                "servisio de medisina legal",
+                "consulta medisina legal"
+            ],
+            "respuestas": [
+                "Brinda apoyo en casos médicos con implicaciones legales, emite dictámenes y colabora en la resolución de situaciones jurídicas que requieren evaluación clínica especializada."
+            ]
+        },
+        {
+            "tag": "medicina_preventiva",
+            "preguntas": [
+                "prebentiba",
+                "preventiba",
+                "medicina preventiva",
+                "area de medicina preventiva",
+                "medicina preventiva area",
+                "departamento de medicina preventiva",
+                "oficina de medicina preventiva",
+                "quien esta en medicina preventiva",
+                "quien es el encargado de medicina preventiva",
+                "informacion de medicina preventiva",
+                "como funciona medicina preventiva",
+                "me pueden ayudar en medicina preventiva",
+                "servicio de medicina preventiva",
+                "consulta medicina preventiva",
+                "medisina preventiva",
+                "medisina prebentiva",
+                "area de medisina preventiva",
+                "departamento de medisina preventiva",
+                "oficina de medisina prebentiva",
+                "quien esta en medisina prebentiva",
+                "quien es el encargado de medisina preventiva",
+                "informasion de medisina preventiva",
+                "consulta de medisina prebentiva"
+            ],
+            "respuestas": [
+                "Realiza acciones orientadas a la promocion de la salud, prevencion de enfermedades y vigilancia epidemiologica en beneficio de los pacientes y el entorno hospitalario."
+            ]
+        },
+        {
+            "tag": "medicina_transfusional",
+            "preguntas": [
+                "ts",
+                "trasnfuncional",
+                "medicina transfusional",
+                "medicina transfusional area",
+                "area de medicina transfusional",
+                "departamento de medicina transfusional",
+                "oficina de medicina transfusional",
+                "quien esta en medicina transfusional",
+                "quien es el encargado de medicina transfusional",
+                "informacion de medicina transfusional",
+                "como funciona medicina transfusional",
+                "me pueden ayudar en medicina transfusional",
+                "servicio de medicina transfusional",
+                "transfusional",
+                "medicina transfuncional",
+                "medicina transfuncional area",
+                "area de medicina transfuncional",
+                "departamento de medicina transfuncional",
+                "oficina de medicina transfuncional",
+                "quien esta en medicina transfuncional",
+                "quien es el encargado de medicina transfuncional",
+                "informacion de medicina transfuncional",
+                "como funciona medicina transfuncional",
+                "me pueden ayudar en medicina transfuncional",
+                "servicio de medicina transfuncional",
+                "transfuncional",
+                "transfunsional",
+                "transfusiones",
+                "transfusion sanguinea",
+                "transfusión sanguínea",
+                "donde se hacen transfusiones",
+                "donde se asen transfuciones",
+                "donde se hacen transfuciones",
+                "quien realiza transfusiones",
+                "quien realiza transfuciones",
+                "apoyo transfusional",
+                "apoyo transfuncional",
+                "transfusion hospital",
+                "transfucion",
+                "transfucion sanguinea",
+                "transfucion de sangre",
+                "transfucion hospital",
+                "transfuciones",
+                "transfuciones sanguineas",
+                "transfuciones de sangre",
+                "transfuciones hospital",
+                "transfunsion",
+                "transfunsion sanguinea",
+                "transfunsion de sangre",
+                "transfunsion hospital",
+                "transfunsiones",
+                "transfunsiones sanguineas",
+                "transfunsiones de sangre",
+                "transfunsiones hospital",
+                "transfuncion",
+                "transfuncion sanguinea",
+                "transfuncion de sangre",
+                "transfuncion hospital",
+                "transfunciones",
+                "transfunciones sanguineas",
+                "transfunciones de sangre",
+                "transfunciones hospital"
+            ],
+            "respuestas": [
+                "Esta area se encarga de la gestión, control y realización de transfusiones sanguíneas y sus derivados, asegurando la seguridad y compatibilidad para los pacientes que lo requieren. También brinda asesoría sobre procedimientos transfusionales."
+            ]
+        },
+        {
+            "tag": "modulo_informacion",
+            "preguntas": [
+                "modulo",
+                "modulo info",
+                "info modulo",
+                "modulo area",
+                "area modulo",
+                "area modulo de informacion",
+                "modulo de informacion area",
+                "modulo de informacion",
+                "modulo informacion",
+                "donde esta el modulo de informacion",
+                "informacion modulo",
+                "modulo informativo",
+                "modulo de informes",
+                "donde puedo pedir informacion",
+                "quiero informacion en el modulo",
+                "a quien pregunto en el modulo de informacion",
+                "modulo hospital",
+                "modulo de atencion",
+                "modulo de ayuda",
+                "modulo de orientacion",
+                "modulo de recepcion de informacion"
+            ],
+            "respuestas": [
+                "Este modulo está ubicado en la entrada principal del hospital. Aquí puedes recibir orientación, resolver dudas y ser canalizado al área correspondiente según tu necesidad."
+            ]
+        },
+        {
+            "tag": "neonatologia",
+            "preguntas": [
+                "neo",
+                "neonato",
+                "neonatologia",
+                "area de neonatologia",
+                "neonatolojia area",
+                "departamento de neonatologia",
+                "oficina de neonatologia",
+                "quien esta en neonatologia",
+                "quien es el encargado de neonatologia",
+                "informacion de neonatologia",
+                "como funciona neonatologia",
+                "me pueden ayudar en neonatologia",
+                "servicio de neonatologia",
+                "consulta neonatologia",
+                "unidad de neonatologia",
+                "neonatolojia",
+                "neonatoligia",
+                "neonatolocia",
+                "neonatoloyia",
+                "area de neonatolojia",
+                "oficina de neonatoligia",
+                "consulta de neonatolocia",
+                "servicio de neonatolojia"
+            ],
+            "respuestas": [
+                "Atiende a recien nacidos que requieren cuidados especiales por condiciones medicas, brindando soporte vital y vigilancia continua desde el nacimiento."
+            ]
+        },
+        {
+            "tag": "oncologia_edificio_viejo",
+            "preguntas": [
+                "onco",
+                "oncologia",
+                "oncolojia",
+                "edificio viejo",
+                "edifisio viejo",
+                "hospital viejo",
+                "oncolojia edificio viejo",
+                "area de oncologia edificio viejo",
+                "oncologia edificio viejo",
+                "oncologia edificio viejo area",
+                "departamento de oncologia edificio viejo",
+                "oficina de oncologia edificio viejo",
+                "servicio de oncologia edificio viejo",
+                "quien esta en oncologia edificio viejo",
+                "quien es el encargado de oncologia edificio viejo",
+                "informacion de oncologia edificio viejo",
+                "consulta oncologia edificio viejo",
+                "me pueden ayudar en oncologia edificio viejo",
+                "oncolojia edificio viejo",
+                "oncolojia angelita",
+                "oncologia angelita",
+                "oncologia banco de sangre",
+                "oncolojia banco de sangre",
+                "oncologia cateters",
+                "oncolojia cateters",
+                "oncologia cateter",
+                "oncolojia cateter",
+                "oncologia jefatura",
+                "oncolojia jefatura",
+                "oncologia jefe",
+                "oncolojia jefe",
+                "oncologia oficina hematologia",
+                "oncolojia oficina hematologia",
+                "oncologia oficina secretaria",
+                "oncolojia oficina secretaria",
+                "oncologia quimioterapia",
+                "oncolojia quimioterapia",
+                "oncologia recepcion",
+                "oncolojia recepcion",
+                "oncologia residentes",
+                "oncolojia residentes",
+                "oncologia hospitalizacion",
+                "oncolojia hospitalizacion",
+                "oncologia ts hospitalizacion",
+                "oncolojia ts hospitalizacion",
+                "oncologia trabajo social hospitalizacion",
+                "oncolojia trabajo social hospitalizacion",
+                "oncologia trabajo social",
+                "oncolojia trabajo social",
+                "trabajo social oncologia",
+                "trabajo social oncologia",
+                "oncologia sala",
+                "oncolojia sala",
+                "sala de oncologia",
+                "sala oncologia",
+                "area de oncologia sala",
+                "oncologia somatometria",
+                "oncolojia somatometria",
+                "somatometria oncologia",
+                "somatometria oncolojia",
+                "area de somatometria oncologia",
+                "oncologia tumores",
+                "oncolojia tumores",
+                "tumores oncologia",
+                "tumores oncolojia",
+                "area de tumores oncologia",
+                "nutricion onco pediatrico",
+                "nutricion oncologia",
+                "nutricion oncolojia",
+                "nutricion oncologica pediatrica",
+                "area de nutricion oncologia",
+                "nutricion en oncologia pediatrica"
+            ],
+            "respuestas": [
+                "Incluye distintas areas dedicadas a la atencion integral de pacientes pediatricos con enfermedades oncohematologicas. Entre ellas se encuentran quimioterapia ambulatoria, cateters, banco de sangre, hospitalizacion, recepcion, jefatura, somatometria, sala, trabajo social, nutricion oncopediatrica y atencion especializada para el seguimiento y tratamiento de tumores." 
+            ]
+        },
+        {
+            "tag": "anatomia_patologica",
+            "preguntas": [
+                "anatomia",
+                "anatomia patologica",
+                "anatomia patolojica",
+                "anatomia patologia",
+                "area de anatomia patologica",
+                "anatomia patologica area",
+                "departamento de anatomia",
+                "departamento de patologia",
+                "departamento de anatomia patologica",
+                "oficina de anatomia patologica",
+                "quien esta en anatomia patologica",
+                "quien es el encargado de anatomia patologica",
+                "informacion de anatomia patologica",
+                "como funciona anatomia patologica",
+                "me pueden ayudar en anatomia patologica",
+                "anatomia patologica hospital",
+                "servicio de anatomia patologica",
+                "consulta anatomia patologica",
+                "laboratorio de anatomia patologica",
+                "patologia anatomica",
+                "patologia",
+                "patolojia"
+            ],
+            "respuestas": [
+                "Se encarga del analisis de muestras biologicas para el diagnostico de enfermedades, contribuyendo al tratamiento oportuno y seguimiento de pacientes pediatricos mediante estudios histopatologicos, citologicos y biopsias."
+            ]
+        },
+        {
+            "tag": "quirofano_1_2",
+            "preguntas": [
+                "quirofano",
+                "kirofsno",
+                "quirofano 1",
+                "quirofano uno",
+                "quirofano 2",
+                "quirofano dos",
+                "quirofanos 1 y 2",
+                "quirofanos uno y dos",
+                "area de quirofano 1",
+                "area de quirofano 2",
+                "quirofano hospital",
+                "quirofanos hospital",
+                "quirofanos principales",
+                "donde esta el quirofano 1",
+                "donde esta el quirofano 2",
+                "acceso a quirofano 1",
+                "acceso a quirofano 2",
+                "informacion de quirofano 1",
+                "informacion de quirofano 2",
+                "que hacen en quirofano 1",
+                "que hacen en quirofano 2",
+                "quien opera en quirofano 1",
+                "quien opera en quirofano 2",
+                "quien esta en quirofano 1",
+                "quien esta en quirofano 2",
+                "quirofanos",
+                "kirofano 1",
+                "kirofano 2"
+            ],
+            "respuestas": [
+                "Espacios destinados a procedimientos quirurgicos programados y de urgencia, equipados con tecnologia especializada para la atencion segura de pacientes pediatricos."
+            ]
+        },
+        {
+            "tag": "rayos_x",
+            "preguntas": [
+                "placa",
+                "placa x",
+                "rayos x",
+                "raios x",
+                "rayos equis",
+                "area de rayos x",
+                "rayos x area",
+                "rayos x hospital",
+                "departamento de rayos x",
+                "oficina de rayos x",
+                "rayos x oficina",
+                "oficina rayos",
+                "rayos oficina",
+                "recepcion rayos x",
+                "rayos x recepcion",
+                "rayos x mayte",
+                "oficina mayte rayos x",
+                "rayos x placas",
+                "placas rayos x",
+                "rayos x ultrasonido",
+                "ultrasonido rayos x",
+                "rayos x tac",
+                "tac rayos x",
+                "informacion de rayos x",
+                "donde estan los rayos x",
+                "a donde voy para rayos x",
+                "quien atiende en rayos x",
+                "me pueden ayudar en rayos x"
+            ],
+            "respuestas": [
+                "Incluye diferentes espacios dedicados a la obtencion de imagenes diagnosticas como placas, ultrasonido y tomografia, asi como oficinas administrativas y recepcion para la gestion de estudios."
+            ]
+        },
+        {
+            "tag": "recursos_financieros",
+            "preguntas": [
+                "recursos",
+                "recursos financieros",
+                "area de recursos financieros",
+                "recursos financieros area",
+                "recursos financieros hospital",
+                "departamento de recursos financieros",
+                "oficina de recursos financieros",
+                "recursos financieros jefe",
+                "jefe de recursos financieros",
+                "quien esta en recursos financieros",
+                "quien es el encargado de recursos financieros",
+                "quien dirige recursos financieros",
+                "quien lidera recursos financieros",
+                "informacion de recursos financieros",
+                "me pueden ayudar en recursos financieros",
+                "contacto recursos financieros",
+                "recursos financieros hospital"
+            ],
+            "respuestas": [
+                "Gestiona los recursos economicos del hospital, coordinando presupuestos, pagos y procesos administrativos para asegurar el funcionamiento financiero institucional."
+            ]
+        },
+        {
+            "tag": "recursos_humanos",
+            "preguntas": [
+                "rh",
+                "rh jefe",
+                "rh contratos",
+                "contratos",
+                "humanos",
+                "recursos humanos",
+                "rejursos humanos",
+                "rrecursos humanos",
+                "area de recursos humanos",
+                "recursos humanos area",
+                "departamento de recursos humanos",
+                "oficina de recursos humanos",
+                "recursos humanos jefe",
+                "jefe de recursos humanos",
+                "quien esta en recursos humanos",
+                "quien es el encargado de recursos humanos",
+                "quien dirige recursos humanos",
+                "quien lidera recursos humanos",
+                "informacion de recursos humanos",
+                "me pueden ayudar en recursos humanos",
+                "contacto recursos humanos",
+                "recursos humanos hospital",
+                "donde esta recursos humanos"
+            ],
+            "respuestas": [
+                "Se encarga de la administracion del personal del hospital, incluyendo contrataciones, control de asistencia, capacitacion y procesos laborales del equipo de trabajo."
+            ]
+        },
+        {
+            "tag": "seguro_popular",
+            "preguntas": [
+                "seguro",
+                "popular",
+                "seguro popular",
+                "seguro populár",
+                "area de seguro popular",
+                "seguro popular area",
+                "departamento de seguro",
+                "departamento de seguro popular",
+                "oficina de seguro popular",
+                "donde esta el seguro popular",
+                "informacion de seguro popular",
+                "me pueden ayudar en seguro popular",
+                "tramite de seguro popular",
+                "quien atiende en seguro popular",
+                "quien esta en seguro popular",
+                "quien es el encargado de seguro popular",
+                "seguro hospital",
+                "seguro de salud",
+                "seguro popular hospital",
+                "necesito ayuda con seguro popular"
+            ],
+            "respuestas": [
+                "Brinda apoyo en el registro, renovacion y orientacion sobre la cobertura de servicios de salud para pacientes sin seguridad social, facilitando el acceso a la atencion medica gratuita o subsidiada."
+            ]
+        },
+        {
+            "tag": "servicios_generales",
+            "preguntas": [
+                "servicios",
+                "servisios",
+                "generales",
+                "servicios generales",
+                "servisios generales",
+                "area de servicios generales",
+                "servicios generales area",
+                "departamento de servicios",
+                "departamento de servicios generales",
+                "oficina de servicios generales",
+                "donde esta servicios generales",
+                "quien esta en servicios generales",
+                "quien es el encargado de servicios generales",
+                "informacion de servicios generales",
+                "me pueden ayudar en servicios generales",
+                "servicios generales hospital",
+                "servicios generales jefe",
+                "jefe de servicios generales",
+                "contacto de servicios generales"
+            ],
+            "respuestas": [
+                "Se encarga del mantenimiento, limpieza, transporte y apoyo logistico para el funcionamiento diario del hospital, asegurando un entorno seguro y ordenado para pacientes y personal."
+            ]
+        },
+        {
+            "tag": "subdireccion_planeacion",
+            "preguntas": [
+                "planeacion",
+                "planeasion",
+                "subdireccion de planeacion",
+                "subdireccion planeacion",
+                "sub direccion de planeacion",
+                "sub direccion planeacion",
+                "subdireccion de planeasion",
+                "sub direccion de planeasion",
+                "area de subdireccion de planeacion",
+                "subdireccion de planeacion area",
+                "departamento de subdireccion de planeacion",
+                "oficina de subdireccion de planeacion",
+                "quien esta en subdireccion de planeacion",
+                "quien es el encargado de subdireccion de planeacion",
+                "informacion de subdireccion de planeacion",
+                "me pueden ayudar en subdireccion de planeacion",
+                "subdireccion de planeacion hospital",
+                "quien dirige subdireccion de planeacion",
+                "contacto subdireccion de planeacion"
+            ],
+            "respuestas": [
+                "Coordina los procesos de planificacion estrategica, proyectos institucionales y evaluacion de resultados para mejorar la gestion hospitalaria y asegurar el cumplimiento de los objetivos del hospital."
+            ]
+        },
+        {
+            "tag": "subdireccion_servicios_auxiliares",
+            "preguntas": [
+                "aux",
+                "auxiliares",
+                "servicios auxiliares",
+                "servicios aux",
+                "subdireccion de servicios auxiliares",
+                "subdireccion servicios auxiliares",
+                "sub direccion de servicios auxiliares",
+                "sub direccion servicios auxiliares",
+                "subdireccion de servisios auxiliares",
+                "sub direccion de servisios auxiliares",
+                "area de subdireccion de servicios auxiliares",
+                "departamento de subdireccion de servicios auxiliares",
+                "oficina de subdireccion de servicios auxiliares",
+                "quien esta en subdireccion de servicios auxiliares",
+                "quien es el encargado de subdireccion de servicios auxiliares",
+                "informacion de subdireccion de servicios auxiliares",
+                "me pueden ayudar en subdireccion de servicios auxiliares",
+                "subdireccion de servicios auxiliares hospital",
+                "quien dirige subdireccion de servicios auxiliares",
+                "contacto subdireccion de servicios auxiliares",
+                "donde esta subdireccion de servicios auxiliares",
+                "dra torres",
+                "subdireccion dra torres",
+                "subdireccion servicios auxiliares dra torres",
+                "servicios dra torres",
+                "subdireccion servicios torres"
+            ],
+            "respuestas": [
+                "Gestiona y supervisa los servicios de apoyo diagnostico y terapeutico, como laboratorio, imagenologia e inhaloterapia, asegurando su funcionamiento eficiente y coordinado dentro del hospital."
+            ]
+        },
+        {
+            "tag": "subdireccion_medica",
+            "preguntas": [
+                "sub medica",
+                "subdireccion medica",
+                "subdireccion de medicina",
+                "sub direccion medica",
+                "sub direccion de medicina",
+                "subdireccion medika",
+                "sub direccion medika",
+                "sub direccion de medika",
+                "subdireccion de medika",
+                "area de subdireccion medica",
+                "subdireccion medica area",
+                "departamento de subdireccion medica",
+                "oficina de subdireccion medica",
+                "quien esta en subdireccion medica",
+                "quien es el encargado de subdireccion medica",
+                "informacion de subdireccion medica",
+                "me pueden ayudar en subdireccion medica",
+                "subdireccion medica hospital",
+                "quien dirige subdireccion medica",
+                "contacto subdireccion medica"
+            ],
+            "respuestas": [
+                "Supervisa y coordina la atencion medica dentro del hospital, garantizando la calidad y eficiencia en los servicios clinicos, asi como el cumplimiento de normas y protocolos de salud."
+            ]
+        },
+        {
+            "tag": "subdireccion_secretaria",
+            "preguntas": [
+                "area secretaria",
+                "secretaria",
+                "sub secretaria",
+                "subdireccion secretaria",
+                "sub direccion secretaria",
+                "subdireccion de secretaria",
+                "sub direccion de secretaria",
+                "subdireccion sekretaria",
+                "sub direccion sekretaria",
+                "area de subdireccion secretaria",
+                "subdireccion secretaria area",
+                "departamento de subdireccion secretaria",
+                "oficina de subdireccion secretaria",
+                "quien esta en subdireccion secretaria",
+                "quien es la encargada de subdireccion secretaria",
+                "informacion de subdireccion secretaria",
+                "me pueden ayudar en subdireccion secretaria",
+                "contacto subdireccion secretaria",
+                "secretaria de subdireccion"
+            ],
+            "respuestas": [
+                "Brinda apoyo administrativo y de organizacion a las diferentes subdirecciones del hospital, facilitando la comunicacion interna, el manejo de documentos y la atencion a solicitudes institucionales."
+            ]
+        },
+        {
+            "tag": "terapia_intensiva",
+            "preguntas": [
+                "intensiva",
+                "intensiba",
+                "intenciva",
+                "intenciba",
+                "terapia intensiva",
+                "area de terapia intensiva",
+                "terapia intensiva area",
+                "departamento de terapia intensiva",
+                "oficina de terapia intensiva",
+                "quien esta en terapia intensiva",
+                "quien es el encargado de terapia intensiva",
+                "informacion de terapia intensiva",
+                "como funciona terapia intensiva",
+                "me pueden ayudar en terapia intensiva",
+                "doctor de terapia intensiva",
+                "medico de terapia intensiva",
+                "quien atiende en terapia intensiva",
+                "servicio de terapia intensiva",
+                "consulta terapia intensiva",
+                "terapia intenciva",
+                "terapia intenciba",
+                "terapia intensiba"
+            ],
+            "respuestas": [
+                "Atiende a pacientes pediatricos en estado critico que requieren monitoreo y soporte vital especializado las 24 horas, con personal altamente capacitado y tecnologia avanzada para cuidados intensivos."
+            ]
+        },
+        {
+            "tag": "trabajo_social",
+            "preguntas": [
+                "ts",
+                "area ts",
+                "ts area",
+                "trabajo social",
+                "area de trabajo social",
+                "trabajo social area",
+                "trabajo social hospital",
+                "departamento de trabajo social",
+                "oficina de trabajo social",
+                "quien esta en trabajo social",
+                "quien es el encargado de trabajo social",
+                "informacion de trabajo social",
+                "como funciona trabajo social",
+                "me pueden ayudar en trabajo social",
+                "donde queda trabajo social",
+                "contacto trabajo social",
+                "trabajo sosial",
+                "trabajo socal"
+            ],
+            "respuestas": [
+                "<b>Trabajo Social</b>\nBrinda apoyo a los pacientes y sus familias en el ámbito social, emocional y administrativo, gestionando tramites, canalizaciones y seguimiento en casos que lo requieren. Se encuentran diferentes áreas administradas."
+            ]
+        },
+        {
+            "tag": "trabajo_social_infectologia",
+            "preguntas": [
+                "trabajo social infectologia",
+                "area de trabajo social infectologia",
+                "trabajo social area infectologia",
+                "trabajo social infectologia area",
+                "trabajo social hospital infectologia",
+                "trabajo social hospitalizacion infectologia",
+                "oficina de trabajo social infectologia",
+                "departamento de trabajo social infectologia",
+                "quien esta en trabajo social infectologia",
+                "quien es el encargado de trabajo social infectologia",
+                "informacion de trabajo social infectologia",
+                "me pueden ayudar en trabajo social infectologia",
+                "como funciona trabajo social infectologia",
+                "contacto trabajo social infectologia",
+                "trabajo sosial infectologia",
+                "trabajo socal infectologia",
+                "trabajo social en infectologia",
+                "trabajo social de infectologia"
+            ],
+            "respuestas": [
+                "Apoya a los pacientes y sus familias en el area de infectologia, brindando orientacion social, gestion de tramites y canalizacion a recursos institucionales o externos cuando es necesario."
+            ]
+        },
+        {
+            "tag": "trabajo_social_neonatologia",
+            "preguntas": [
+                "trabajo social neonatologia",
+                "trabajo social neonato",
+                "social neonatologia",
+                "trabajo social area neonatologia",
+                "trabajo social neonatologia area",
+                "trabajo social hospital neonatologia",
+                "social neonato",
+                "area de trabajo social neonatologia",
+                "oficina de trabajo social neonatologia",
+                "departamento de trabajo social neonatologia",
+                "quien esta en trabajo social neonatologia",
+                "quien es el encargado de trabajo social neonatologia",
+                "informacion de trabajo social neonatologia",
+                "me pueden ayudar en trabajo social neonatologia",
+                "como funciona trabajo social neonatologia",
+                "contacto trabajo social neonatologia",
+                "trabajo sosial neonatologia",
+                "trabajo socal neonatologia",
+                "trabajo social en neonatologia",
+                "trabajo social de neonatologia"
+            ],
+            "respuestas": [
+                "Brinda acompañamiento y apoyo a las familias de recién nacidos hospitalizados, orientando en aspectos sociales, emocionales y administrativos durante su estancia en el área de neonatología."
+            ]
+        },
+        {
+            "tag": "trabajo_social_oficina",
+            "preguntas": [
+                "trabajo social oficina",
+                "trabajo social ofisina",
+                "social oficina",
+                "social ofisina",
+                "area de trabajo social oficina",
+                "trabajo social area oficina",
+                "trabajo social oficina area",
+                "trabajo social hospital oficina",
+                "trabajo social hospitalizacion oficina",
+                "oficina de trabajo social oficina",
+                "oficina de trabajo social",
+                "departamento de trabajo social oficina",
+                "quien esta en trabajo social oficina",
+                "quien es el encargado de trabajo social oficina",
+                "informacion de trabajo social oficina",
+                "me pueden ayudar en trabajo social oficina",
+                "como funciona trabajo social oficina",
+                "contacto trabajo social oficina",
+                "trabajo sosial oficina",
+                "trabajo socal oficina",
+                "trabajo social en oficina",
+                "trabajo social general"
+            ],
+            "respuestas": [
+                "Atiende a los usuarios que requieren orientación sobre servicios sociales, apoyos institucionales y trámites generales, canalizando a las áreas correspondientes según cada caso."
+            ]
+        },
+        {
+            "tag": "trabajo_social_qx_ambulatorio",
+            "preguntas": [
+                "qx",
+                "trabajo social qx",
+                "trabajo sosial qx",
+                "trabajo social qx ambulatorio",
+                "area de trabajo social qx ambulatorio",
+                "oficina de trabajo social qx ambulatorio",
+                "departamento de trabajo social qx ambulatorio",
+                "quien esta en trabajo social qx ambulatorio",
+                "quien es el encargado de trabajo social qx ambulatorio",
+                "informacion de trabajo social qx ambulatorio",
+                "me pueden ayudar en trabajo social qx ambulatorio",
+                "como funciona trabajo social qx ambulatorio",
+                "contacto trabajo social qx ambulatorio",
+                "trabajo social ambulatorio",
+                "trabajo social cirugia ambulatoria",
+                "trabajo social quirurgico ambulatorio",
+                "trabajo social cirugia",
+                "trabajo social cirugico ambulatorio",
+                "trabajo sosial qx ambulatorio",
+                "trabajo socal qx ambulatorio",
+                "trabajo sosial cirugia ambulatoria",
+                "trabajo socal cirugia ambulatoria",
+                "trabajo sosial quirurgico ambulatorio",
+                "trabajo socal quirurgico ambulatorio",
+                "trabajo sosial cirugico ambulatorio",
+                "trabajo socal cirugico ambulatorio"
+            ],
+            "respuestas": [
+                "Brinda apoyo a pacientes de cirugía ambulatoria en aspectos sociales y administrativos, facilitando la comunicación con familiares y otros servicios para asegurar una atención integral y coordinada."
+            ]
+        },
+        {
+            "tag": "trabajo_social_terapia_intensiva",
+            "preguntas": [
+                "trabajo social terapia intensiva",
+                "trabajo sosial terapia intensiva",
+                "trabajo socal terapia intensiva",
+                "trabajo sosyal terapia intensiva",
+                "trabajo social en terapia intensiva",
+                "trabajo social terapia intensiba",
+                "trabajo sosial en terapia intensiva",
+                "trabajo socal en terapia intensiva",
+                "trabajo social ti",
+                "trabajo sosial ti",
+                "trabajo social en ti",
+                "trabajo sosial en ti",
+                "area de trabajo social terapia intensiva",
+                "departamento de trabajo social terapia intensiva",
+                "oficina de trabajo social terapia intensiva",
+                "quien esta en trabajo social terapia intensiva",
+                "quien es el encargado de trabajo social terapia intensiva",
+                "quien es la encargada de trabajo social terapia intensiva",
+                "encargado de trabajo social terapia intensiva",
+                "encargada de trabajo social terapia intensiva",
+                "informacion de trabajo social terapia intensiva",
+                "me pueden ayudar en trabajo social terapia intensiva",
+                "como funciona trabajo social terapia intensiva",
+                "contacto trabajo social terapia intensiva",
+                "donde esta trabajo social terapia intensiva",
+                "donde queda trabajo social terapia intensiva",
+                "donde es trabajo social terapia intensiva",
+                "ubicacion de trabajo social terapia intensiva"
+            ],
+            "respuestas": [
+                "Proporciona acompañamiento social y orientación a las familias de pacientes en terapia intensiva, facilitando trámites y comunicación con el equipo médico para garantizar una atención humana y coordinada."
+            ]
+        },
+        {
+            "tag": "trabajo_social_terapia_intensiva",
+            "preguntas": [
+                "ts terapia intensiva",
+                "ts terapia intensiba",
+                "trabajo social terapia intensiva",
+                "trabajo sosial terapia intensiva",
+                "trabajo socal terapia intensiva",
+                "trabajo sosyal terapia intensiva",
+                "trabajo social en terapia intensiva",
+                "trabajo social terapia intensiba",
+                "trabajo sosial en terapia intensiva",
+                "trabajo socal en terapia intensiva",
+                "trabajo social ti",
+                "trabajo sosial ti",
+                "trabajo social en ti",
+                "trabajo sosial en ti",
+                "area de trabajo social terapia intensiva",
+                "trabajo social terapia intensiva area",
+                "trabajo social hospital terapia intensiva",
+                "departamento de trabajo social terapia intensiva",
+                "oficina de trabajo social terapia intensiva",
+                "quien esta en trabajo social terapia intensiva",
+                "quien es el encargado de trabajo social terapia intensiva",
+                "quien es la encargada de trabajo social terapia intensiva",
+                "encargado de trabajo social terapia intensiva",
+                "encargada de trabajo social terapia intensiva",
+                "informacion de trabajo social terapia intensiva",
+                "me pueden ayudar en trabajo social terapia intensiva",
+                "como funciona trabajo social terapia intensiva",
+                "contacto trabajo social terapia intensiva",
+                "donde esta trabajo social terapia intensiva",
+                "donde queda trabajo social terapia intensiva",
+                "donde es trabajo social terapia intensiva",
+                "ubicacion de trabajo social terapia intensiva"
+            ],
+            "respuestas": [
+                "Proporciona acompañamiento social y orientación a las familias de pacientes en terapia intensiva, facilitando trámites y comunicación con el equipo médico para garantizar una atención humana y coordinada."
+            ]
+        },
+        {
+            "tag": "trabajo_social_urgencias",
+            "preguntas": [
+                "trabajo social urgencias",
+                "trabajo sosial urgencias",
+                "trabajo socal urgencias",
+                "trabajo sosyal urgencias",
+                "trabajo social en urgencias",
+                "trabajo sosial en urgencias",
+                "trabajo socal en urgencias",
+                "trabajo sosyal en urgencias",
+                "area de trabajo social urgencias",
+                "departamento de trabajo social urgencias",
+                "oficina de trabajo social urgencias",
+                "quien esta en trabajo social urgencias",
+                "quien es el encargado de trabajo social urgencias",
+                "quien es la encargada de trabajo social urgencias",
+                "encargado de trabajo social urgencias",
+                "encargada de trabajo social urgencias",
+                "informacion de trabajo social urgencias",
+                "me pueden ayudar en trabajo social urgencias",
+                "como funciona trabajo social urgencias",
+                "contacto trabajo social urgencias",
+                "donde esta trabajo social urgencias",
+                "donde queda trabajo social urgencias",
+                "donde es trabajo social urgencias",
+                "ubicacion de trabajo social urgencias",
+                "ts urgencias",
+                "ts en urgencias",
+                "area de ts urgencias",
+                "departamento de ts urgencias",
+                "oficina de ts urgencias",
+                "quien esta en ts urgencias",
+                "quien es el encargado de ts urgencias",
+                "quien es la encargada de ts urgencias",
+                "informacion de ts urgencias",
+                "contacto ts urgencias",
+                "me pueden ayudar en ts urgencias",
+                "donde esta ts urgencias",
+                "donde queda ts urgencias",
+                "donde es ts urgencias",
+                "ubicacion de ts urgencias"
+            ],
+            "respuestas": [
+                "Brinda apoyo emocional, orientación y gestión de trámites a familiares y pacientes en situaciones críticas dentro del área de urgencias, coordinando con el personal médico para asegurar una atención eficiente y humanizada."
+            ]
+        },
+        {
+            "tag": "trabajo_social_jefatura",
+            "preguntas": [
+                "trabajo social jefatura",
+                "trabajo sosyal jefatura",
+                "trabajo socal jefatura",
+                "trabajo sosial jefatura",
+                "trabajo social en jefatura",
+                "area de trabajo social jefatura",
+                "trabajo social jefatura area",
+                "trabajo social hospital jefatura",
+                "departamento de trabajo social jefatura",
+                "oficina de trabajo social jefatura",
+                "quien esta en trabajo social jefatura",
+                "quien es el encargado de trabajo social jefatura",
+                "quien es la encargada de trabajo social jefatura",
+                "me pueden ayudar en trabajo social jefatura",
+                "informacion de trabajo social jefatura",
+                "contacto trabajo social jefatura",
+                "como funciona trabajo social jefatura",
+                "donde esta trabajo social jefatura",
+                "donde queda trabajo social jefatura",
+                "donde es trabajo social jefatura",
+                "ubicacion de trabajo social jefatura",
+                "ts jefatura",
+                "ts en jefatura",
+                "area de ts jefatura",
+                "departamento de ts jefatura",
+                "oficina de ts jefatura",
+                "quien esta en ts jefatura",
+                "quien es el encargado de ts jefatura",
+                "quien es la encargada de ts jefatura",
+                "me pueden ayudar en ts jefatura",
+                "informacion de ts jefatura",
+                "contacto ts jefatura",
+                "donde esta ts jefatura",
+                "donde queda ts jefatura",
+                "donde es ts jefatura",
+                "ubicacion de ts jefatura"
+            ],
+            "respuestas": [
+                "Gestiona, supervisa y coordina las actividades del personal de trabajo social en las distintas áreas del hospital, asegurando la calidad en la atención social brindada a pacientes y familias."
+            ]
+        }
+    ]
+}
