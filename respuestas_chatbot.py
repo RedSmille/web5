@@ -168,7 +168,7 @@ def ObtenerRespuesta(ListaIntentos, JsonIntentos):
                 ]
             elif Intento['tag'] == "mision_vision":   
                 return [
-                    '<img decoding="async" width="200" class="elemento_interno" src="Img/F4.jpg" alt="">',
+                    '<img decoding="async" width="200" class="elemento_interno" src="F4.jpg" alt="">',
                     Respuesta,
                     '<b>Vision:</b> Ser un hospital líder a nivel nacional en atención pediátrica, formación médica e investigación, con personal suficiente y capacitado.'                
                 ]
